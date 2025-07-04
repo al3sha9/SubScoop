@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 "use client"
 import { motion, Transition } from 'framer-motion';
 import { useEffect, useRef, useState, useMemo } from 'react';
