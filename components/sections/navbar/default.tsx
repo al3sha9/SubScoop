@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
 import LaunchUI from "../../logos/launch-ui";
-import { Button, type ButtonProps } from "../../ui/button";
+import { Button } from "../../ui/button";
 import {
   Navbar as NavbarComponent,
   NavbarLeft,
@@ -21,7 +21,7 @@ interface NavbarLink {
 interface NavbarActionProps {
   text: string;
   href: string;
-  variant?: ButtonProps["variant"];
+  variant?: "default" | "destructive" | "outline" | "secondary" | "ghost" | "link";
   icon?: ReactNode;
   iconRight?: ReactNode;
   isButton?: boolean;
